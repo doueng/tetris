@@ -1,0 +1,48 @@
+/* .board {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 500px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  /* margin: auto; */
+  /* border: 1px solid red; */
+/* } */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(10, 10vh)
+}
+
+.score {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 500px;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+}
